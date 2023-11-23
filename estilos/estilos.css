@@ -1,0 +1,54 @@
+/* 1. Que todo el documento tenga un tamaño de letra de 20px. */
+body{
+    font-weight: 20px;
+}
+/* 2. Los elementos hr han de tener: · Tamaño del 50%. · Margen en auto. · Color de borde negro. · Un margen 
+superior de 4px. */
+hr{
+    width: 50%;
+    margin:auto;
+    border:solid black;
+    margin-top: 4px;
+}
+/* 3. Haz que la imagen del mapa esté centrado. */
+.mapa{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* 4. Dale estilo a los h1 de la página web para que tengan · Tamaño de letra de 50px. · Alineado al centro. */
+h1{
+    font-weight: 50px;
+    text-align: center;
+}
+/* 5. Dale estilo a los h2 de la página web para que tengan: · Decoración de texto subrayado. · Tamaño de 
+letra de 30px. · Color de letra "blueviolet". */
+h2{
+    text-decoration:underline;
+    font-weight: 30px;
+    color: blueviolet;
+}
+/* 6. El tamaño de las imagenes sea de 500px. */
+img{
+    width: 500px;
+}
+/* 7. La tabla de la página web tenga: · Borde de color "Gray" y de 1px. · Radio del borde de 2px. · Tamaño de 
+letra de 20px. · Los bordes colapsen. */
+table{
+    border: solid gray 1px;
+    border-radius: 2px;
+    font-weight: 20px;
+    border-collapse: collapse;
+}
+/* 8. Todos los th de la tabla tengan un color de fondo "aqua". */
+th{
+    background-color: aqua;
+}
+/* 9. Todas las medidas de la tabla (la columna de la izquierda) tenga un color de fondo "acquamarine". */
+.medidas{
+    background-color: aquamarine;
+}
+/* 10. Todos los valores de la tabla (los numeros) tengan un color de fondo "rgb(127, 255, 234)". */
+.valores{
+    background-color: rgb(127,255,234);
+}
